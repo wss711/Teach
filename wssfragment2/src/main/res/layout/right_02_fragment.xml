@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CCD7C">
+
+    <TextView
+        android:id="@+id/right_02_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="凡事都有偶然的凑巧，结果却又如宿命的必然。"
+        android:textSize="18sp"/>
+
+</LinearLayout>

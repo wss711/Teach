@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <fragment-->
+<!--        android:id="@+id/left_fgm"-->
+<!--        android:name="com.gr.wssfragment2.LeftFragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/right_fgm"-->
+<!--        android:name="com.gr.wssfragment2.RightFragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="2"/>-->
+
+    <fragment
+        android:id="@+id/left_01_fgm"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.gr.wssfragment2.Left01Fragment"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/right_01_fgm"-->
+<!--        android:layout_width="0sp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:name="com.gr.wssfragment2.Right01Fragment"/>-->
+
+    <FrameLayout
+        android:id="@+id/right_02_fl"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+
+
+
+</LinearLayout>
